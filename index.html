@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>juego que se juega</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo">Piedra Papel o Tijeras</h1>
+    <!--contador de victorias-->
+    <section id="conta_victo">
+        <h2>contador de victorias</h2>   
+        <div class="conta">
+            <h3>jugador: <span id="victoria_jugador">0 </span></h3>
+            <h3>maquina: <span id="victoria_maquina">0 </span></h3>
+        </div>
+    </section>
+    <!--modos-->
+    <!--<section>
+        <P>modos de juego</P>
+        <button id="ganar_de_3">ganar de 3</button>
+        <button>ganar de 5</button>
+        <button>mejor de 3</button>
+        <button>mejor de 5</button>
+        <button>infinito</button>
+    </section>-->
+
+      <!--eleccion jugador-->
+    <section id="contenedor_boto">
+        <div class="targeta">
+            <button class="botones" id="boton_piedra"><img src="./imagenes/piedra.png"></button>
+            <button class="botones" id="boton_papel">papel</button>
+            <button class="botones" id="boton_tijeras">tijeras</button>
+        </div>
+    </section>
+    <!--historal partida-->
+    <section id="mensajes">
+        <p></p>
+        <p id="gana"></p>
+    </section>
+</body>
+<script src="juego_piedra.js"></script>
+</html>
