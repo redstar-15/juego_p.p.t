@@ -10,6 +10,8 @@ var jugador_papel = document.getElementById("boton_papel")
 jugador_papel.addEventListener("click",eleccion_papel)
 var jugador_tijera = document.getElementById("boton_tijeras")
 jugador_tijera.addEventListener("click",eleccion_tijeras)
+var reiniciar = document.getElementById("reiniciar")
+reiniciar.addEventListener("click",reiniciar_juego)
 //var modo_gana_3 = document.getElementById("ganar_de_3")
 //modo_gana_3.addEventListener("click",juego)
 
@@ -91,4 +93,8 @@ function mensajes_juego(){
     var mensaje = document.createElement("p")
     mensaje.innerHTML = "la maquina eligio "+ maquina + " tu elegiste "+ jugador +" "+ juego()
     seccion_mensaje.appendChild(mensaje)
+}
+
+function reiniciar_juego(){
+    location.reload()
 }

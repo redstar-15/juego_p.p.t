@@ -70,3 +70,14 @@ h3{
     height: 151px;
 
 }
+#mensajes {
+    height: 300px;
+    width: 100vh;
+    background-color: #C0C1CB;
+    flex-wrap:wrap;
+    gap: 2rem;
+    border:1px solid grey;
+    margin-left: 60vh;
+    margin-top: 5px;
+    border-radius: 10px;
+}
