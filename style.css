@@ -13,34 +13,26 @@
     align-items: center;
     flex-wrap:wrap;
     gap: 2rem;
-    border-top:1px solid #ef0d0d;
-    border-bottom:1px solid black;
-    border-left:1px solid #ef0d0d;
-    border-right:1px solid black;
-    /*margin: 10vh;*/
     margin-left: 60vh;
-   /* margin-right: 50px;*/
     margin-top: 5px;
     border-radius: 10px;
 }
 #conta_victo{
     justify-content: center;
     border:1px solid green;
-    width: 300px;
-    margin-left: 85vh;
-
+    width: 250px;
+    margin-left: 75vh;
 }
 .conta{
     display: flex;
     justify-content: center;
     align-items: center;
     margin:2px;
+    float: left;
 }
 
 h3{
     display: block;
-/*    margin-block-end: 2em;
-    margin-inline-end: 1em;*/
     width: 200px;
     height: 40px;
     padding: 2px;
@@ -68,7 +60,6 @@ h3{
 .targeta img{
     width: 151px;
     height: 151px;
-
 }
 #mensajes {
     height: 300px;
